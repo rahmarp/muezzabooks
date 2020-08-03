@@ -4,11 +4,22 @@
 <main role="main">
     <div class="jumbotron">
         <div class="col-sm-8 mx-auto">
-            <h1>Navbar examples</h1>
-            <p>This example is a quick exercise to illustrate how the navbar and its contents work. Some navbars extend the width of the viewport, others are confined within a <code>.container</code>. For positioning of navbars, checkout the <a href="../navbar-top/">top</a> and <a href="../navbar-top-fixed/">fixed top</a> examples.</p>
-            <p>At the smallest breakpoint, the collapse plugin is used to hide the links and show a menu button to toggle the collapsed content.</p>
+            <h1>This is the home page</h1>
             <p>
-                <a class="btn btn-primary" href="../../components/navbar/" role="button">View navbar docs »</a>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Donec sed nibh ligula. 
+                Vivamus eleifend, nisl ac blandit venenatis, mauris ligula tristique sapien, at vehicula velit elit sit amet turpis. 
+                Quisque elementum efficitur vestibulum. Nulla scelerisque lorem blandit, blandit leo nec, ornare leo. 
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                Maecenas fringilla ac enim venenatis tempor. 
+                Maecenas sed lectus sit amet enim dictum pellentesque. 
+                Ut quis odio auctor, molestie tellus et, fermentum nulla. 
+                Cras vestibulum dapibus auctor. Sed sed elementum mi. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Pellentesque sed tincidunt nulla. 
+                Sed malesuada nec risus vitae rutrum. 
+                Donec id sollicitudin nisi, eget placerat eros. 
+                Proin ultricies, ante vel cursus fringilla, augue ipsum vehicula arcu, ac venenatis ligula ipsum vel erat. 
             </p>
         </div>
     </div>
