@@ -1,30 +1,72 @@
 @extends('layout')
 
 @section('content')
-<main role="main">
-    <div class="row">
-        <div class="jumbotron">
-            <div class="col-sm-8 mx-auto">
-                <h1>This is the home page</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Donec sed nibh ligula. 
-                    Vivamus eleifend, nisl ac blandit venenatis, mauris ligula tristique sapien, at vehicula velit elit sit amet turpis. 
-                    Quisque elementum efficitur vestibulum. Nulla scelerisque lorem blandit, blandit leo nec, ornare leo. 
-                    Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-                    Maecenas fringilla ac enim venenatis tempor. 
-                    Maecenas sed lectus sit amet enim dictum pellentesque. 
-                    Ut quis odio auctor, molestie tellus et, fermentum nulla. 
-                    Cras vestibulum dapibus auctor. Sed sed elementum mi. 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Pellentesque sed tincidunt nulla. 
-                    Sed malesuada nec risus vitae rutrum. 
-                    Donec id sollicitudin nisi, eget placerat eros. 
-                    Proin ultricies, ante vel cursus fringilla, augue ipsum vehicula arcu, ac venenatis ligula ipsum vel erat. 
-                </p>
-            </div>
-        </div>
+
+<header class="masthead text-center text-white">
+    <div class="masthead-content">
+      <div class="container">
+        <h1 class="masthead-heading mb-0">One Page Wonder</h1>
+        <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
+        <a href="#catalog" class="btn btn-yellow btn-xl rounded-pill mt-5">Learn More</a>
+      </div>
     </div>
-    
-</main>
+  </header>
+
+  <section id="catalog">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid" src="{{ ('assets/images/bba2.jpg') }}" > 
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">BBA - Bahagia Bersama AlQuran</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+            <a href="" class="btn btn-outline-yellow">Warning</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid" src="{{ ('assets/images/bba3.jpg') }}" > 
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">QM - Quranic Motivation</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+            <a href="" class="btn btn-outline-yellow">Warning</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid" src="{{ ('assets/images/bba1.jpg') }}" > 
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">RBA - Rihlah Bersama AlQuran</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+            <a href="" class="btn btn-outline-yellow">Warning</a>  
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 @endsection

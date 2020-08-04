@@ -6,3 +6,84 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+//navbar
+.navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    .navbar-brand {
+      text-transform: uppercase;
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+      font-weight: 700;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          text-transform: uppercase;
+          font-size: 0.8rem;
+          font-weight: 700;
+          letter-spacing: 0.1rem;
+        }
+      }
+    }
+  }
+
+//header
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background: #444444;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  .masthead-content {
+    z-index: 1;
+    position: relative;
+    .masthead-heading {
+      font-size: 4rem;
+    }
+    .masthead-subheading {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    .masthead-content {
+      .masthead-heading {
+        font-size: 6rem;
+      }
+      .masthead-subheading {
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
+.img-nav{
+    height: 150px;
+}
+
+.btn-yellow{
+    background-color: #FFD801;
+}
+
+.btn-outline-yellow {
+    color: #FFD801;
+    border-color: #FFD801;
+  }
+  
+  .btn-outline-yellow:hover {
+    color: #212529;
+    background-color: #FFD801;
+    border-color: #FFD801;
+  }
+  
